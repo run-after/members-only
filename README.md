@@ -1,24 +1,17 @@
-# README
+Members Only
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a project from The Odin Project (https://theodinproject.com)
 
-Things you may want to cover:
+In this project, I built an exclusive clubhouse where members can write embarrassing posts about non-members. Inside the clubhouse, members can see who the author of a post is but, outside, they can only see the story and wonder who wrote it.
 
-* Ruby version
+This was a practice project to introduce me to Devise gem.
 
-* System dependencies
+I created the Post model/controller and associated views.
 
-* Configuration
+Created a form to create a post
 
-* Database creation
+Used Devise to create the User model with authentications
 
-* Database initialization
+Changed the Devise User model to accept a name
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Created the logic to display user name if logged in
